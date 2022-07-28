@@ -9,6 +9,7 @@ class BooksController < ApplicationController
     redirect_to book_path(book.id)
 
   def index
+    @book = Book.all
   end
 
   def show
