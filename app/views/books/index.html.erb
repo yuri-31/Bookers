@@ -10,6 +10,6 @@
     
     <%= link_to 'Show', book_path(book.id) %>
     <%= link_to 'Edit', edit_book_path(book.id) %>
-    <%= link_to 'Destroy', '/books/:id' %>
+    <%= link_to 'Destroy', book_path(book.id), method: :delete %>
     
 <% end %>
