@@ -1,3 +1,92 @@
 // Place all the styles related to the books controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+* {
+    margin: 33px;
+    font-family: verdana, arial, helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+th {
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+td {
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+}
+
+.input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.link {
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.error_container {
+    width: 600px;
+    border: 2px solid red;
+    padding: 8px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+}
+
+.error_container h2 {
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+    padding: 8px 8px 8px 20px;
+    background-color: #c00;
+    margin: -9px;
+}
+
+ul {
+    display: block;
+    margin: 55px;
+    padding-left: 50px;
+    list-style-type: square;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.flash_message {
+    color: green;
+    padding-left: 33px;
+}
